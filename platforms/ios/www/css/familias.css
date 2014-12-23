@@ -1,0 +1,159 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    background: rgba(10, 10, 42, 0.90);
+}
+
+/*--------------------- ESTILOS DEL MENU SUPERIOR ---------------------*/
+.menu {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    z-index: 2;
+    background: #0A0A2A;
+}
+.celdaMenu {
+    width: 50px;
+}
+.menu img{
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.menu p {
+    position: relative;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 5px auto;
+    width: auto;
+}
+
+
+/*--------------------- ESTILOS DEL LISTADO ---------------------*/
+.listado {
+    position: relative;
+    top: 60px;
+    overflow: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.familia {
+    display: inline-block;
+}
+.familia p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.familia div {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-left: 5px;
+}
+.contenedor {
+    padding: 0;
+    width: 100%;
+}
+.contenedor img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+    border: 0;
+}
+.contenedor::before {
+    content: attr(title);
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    text-align: left;
+    z-index: 1;
+}
+
+
+/*--------------------- ESTILOS DEL MENU LATERAL ---------------------*/
+nav.menu {
+    position: fixed;
+    z-index: 3;
+    background-color: #070719;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.menu a {
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+button.close-menu {
+    background-color: #0A0A2A;
+    color: #fff;
+    font-size: 15px;
+}
+button.close-menu:focus {
+    outline: none;
+}
+
+nav.slide-menu-left {
+    top: 0;
+    width: 30%;
+    height: 100%;
+}
+nav.slide-menu-left li {
+    display: block;
+    text-align: center;
+    border-bottom: solid 1px #3184a1;
+    border-top:  solid 1px #b5dbe9;
+}
+nav.slide-menu-left li:first-child {
+    border-top: none;
+}
+nav.slide-menu-left li:last-child {
+    border-bottom: none;
+}
+nav.slide-menu-left a {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+}
+nav.slide-menu-left button.close-menu {
+    margin: 10px 0;
+    padding: 10px 30px;
+    background-color: #3184a1;
+    color: #fff;
+    border: none;
+}
+nav.slide-menu-left {
+    left: -30%;
+}
+body.sml-open nav.slide-menu-left {
+    left: 0
+}

@@ -1,0 +1,18 @@
+2014-12-22 18:58:27.951 VeintemilLeguas[899:36576] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Data/Application/E34656A2-42F1-4F3B-8B18-6F6A23AA3D87/Library/Cookies/Cookies.binarycookies
+2014-12-22 18:58:29.179 VeintemilLeguas[899:36576] Apache Cordova native platform version 3.7.0 is starting.
+2014-12-22 18:58:29.179 VeintemilLeguas[899:36576] Multi-tasking -> Device: YES, App: YES
+2014-12-22 18:58:29.208 VeintemilLeguas[899:36576] Unlimited access to network resources
+2014-12-22 18:58:29.226 VeintemilLeguas[899:36576] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-12-22 18:58:31.768 VeintemilLeguas[899:36576] Resetting plugins due to page load.
+2014-12-22 18:58:32.309 VeintemilLeguas[899:36576] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/B7B019BD-F302-4FBB-870F-2BABAB6F621E/VeintemilLeguas.app/www/index.html
+2014-12-22 18:58:42.086 VeintemilLeguas[899:36576] Resetting plugins due to page load.
+2014-12-22 18:58:42.178 VeintemilLeguas[899:36576] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/B7B019BD-F302-4FBB-870F-2BABAB6F621E/VeintemilLeguas.app/www/famlias.html
+2014-12-22 18:59:04.808 VeintemilLeguas[899:36576] Resetting plugins due to page load.
+2014-12-22 18:59:04.875 VeintemilLeguas[899:36576] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/B7B019BD-F302-4FBB-870F-2BABAB6F621E/VeintemilLeguas.app/www/index.html
