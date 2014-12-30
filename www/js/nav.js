@@ -7,9 +7,20 @@
     mask.className = "mask";
     
     toggleSlideLeft.addEventListener("click", function(){
-        classie.add(body, "sml-open");
-        document.body.appendChild(mask);
-        activeNav = "sml-open";
+//        classie.add(body, "sml-open");
+//        document.body.appendChild(mask);
+//        activeNav = "sml-open";
+        
+        if(activeNav == "sml-open"){
+            classie.remove( body, activeNav );
+			activeNav = "";
+			document.body.removeChild(mask);
+        } else {
+            classie.add(body, "sml-open");
+            document.body.appendChild(mask);
+            activeNav = "sml-open";
+        }
+
     });
     
 	/* hide active menu if mask is clicked */

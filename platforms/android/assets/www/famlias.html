@@ -11,29 +11,34 @@
     <body>
         <nav class="menu slide-menu-left">
             <ul>
-                <li><button class="close-menu">&larr; Cerrar</button></li>
-                <li><a href="index.html">Intro</a></li>
-                <li><a href="famlias.html">Familidas</a></li>
-                <li><a href="#">Especies</a></li>
-                <li><a href="#">Sobre 20.000 Leguas</a></li>
+                <li><a href="intro.html">Los peces</a></li>
+                <li><a href="grupos.html">Grupos</a></li>
+                <li><a href="especies.html">Especies</a></li>
+                <li><a href="#">Sobre 20000 Leguas</a></li>
             </ul>
         </nav>
         
-        <table class="menu">
-            <tr>
-                <td class="celdaMenu">
-                    <img src="img/menu.png" class="nav-toggler toggle-slide-left">
-                </td>
-                <td>
-                    <p>Familias</p>
-                </td>
-                <td class="celdaMenu">
-                    <a href="javascript:history.go(-1)">
-                        <img src="img/return.png">
-                    </a>
-                </td>
-            </tr>
-        </table>
+        <div class="contenedorMenu">
+            <table class="menu">
+                <tr>
+                    <td class="celdaIzquierda">
+                        <a href="javascript:history.go(-1)">
+                            <img src="img/return.png">
+                        </a>
+                    </td>                
+                    <td style="text-align: right; padding-right: 50px">
+                        <a href="navegador.html">
+                            <img src="img/ico_leguas.png" style="width: 20%">
+                        </a>
+                    </td>
+                    <td class="celdaDerecha">
+                        <img src="img/menu_barra.png" class="nav-toggler toggle-slide-left">
+                    </td>
+                </tr>
+            </table>            
+            <img src="img/cabecera_negro.jpg" style="width: 100%; height: 70px;">
+            <img src="img/grupos.png" style="position:absolute; width: 108; height: 58; top:45px; left: 45%;">
+        </div>
         
         <div class="listado">
             
@@ -41,17 +46,17 @@
                 <p>Perros</p>
                 <div>
                     <div class="contenedor" title="Perro 1">
-                        <img src="img/perro1.jpeg">
+                        <img src="img/Animales/perro1.jpeg">
                     </div>
                 </div>
                 <div>
                     <div class="contenedor" title="Perro 2">
-                        <img src="img/perro2.jpeg">
+                        <img src="img/Animales/perro2.jpeg">
                     </div>
                 </div>
                 <div>
                     <div class="contenedor" title="Perro 3">
-                        <img src="img/perro3.jpeg">
+                        <img src="img/Animales/perro3.jpeg">
                     </div>
                 </div>
             </div>
@@ -60,27 +65,22 @@
                 <p>Delfines</p>
                 <div class="hijo">
                     <div class="contenedor" title="Delfin 1">
-                        <img src="img/delfin1.jpeg">
+                        <img src="img/Animales/delfin1.jpeg">
                     </div>
                 </div>
                 <div class="hijo">
                     <div class="contenedor" title="Delfin 2">
-                        <img src="img/delfin2.jpeg">
+                        <img src="img/Animales/delfin2.jpeg">
                     </div>
                 </div>
                 <div class="hijo">
                     <div class="contenedor" title="Delfin 3">
-                        <img src="img/delfin3.jpeg">
+                        <img src="img/Animales/delfin3.jpeg">
                     </div>
                 </div>
                 <div class="hijo">
                     <div class="contenedor" title="Delfin 3">
-                        <img src="img/delfin3.jpeg">
-                    </div>
-                </div>
-                <div class="hijo">
-                    <div class="contenedor" title="Delfin 3">
-                        <img src="img/delfin3.jpeg">
+                        <img src="img/Animales/delfin3.jpeg">
                     </div>
                 </div>
             </div>
@@ -88,22 +88,26 @@
                 <p>Gatos</p>
                 <div class="hijo">
                     <div class="contenedor" title="Gato 1">
-                        <img src="img/gato1.jpeg">
+                        <img src="img/Animales/gato1.jpeg">
                     </div>
                 </div>
                 <div class="hijo">
                     <div class="contenedor" title="Gato 2">
-                        <img src="img/gato2.jpeg">
+                        <img src="img/Animales/gato2.jpeg">
                     </div>
                 </div>
                 <div class="hijo">
                     <div class="contenedor" title="Gato 3">
-                        <img src="img/gato3.jpeg">
+                        <img src="img/Animales/gato3.jpeg">
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="publicidad">
+            <img src="img/publicidad.jpg" width="100%">
+        </div>
+        
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/familias.js"></script>
         <script src="js/classie.js"></script>

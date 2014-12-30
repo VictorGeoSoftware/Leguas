@@ -1,0 +1,1 @@
+// Aqui va el evento onclick de la casilla asociada a la especie correspondiente

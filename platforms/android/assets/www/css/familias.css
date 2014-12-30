@@ -12,24 +12,33 @@ body {
     margin:0px;
     padding:0px;
     width:100%;
-    background: rgba(10, 10, 42, 0.90);
+    background: #000;
 }
 
 /*--------------------- ESTILOS DEL MENU SUPERIOR ---------------------*/
-.menu {
+.contenedorMenu {
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 50px;
+    z-index: 2;
+    background: #000;
+}
+.menu {
+    position: absolute;
+    width: 100%;
+    height: inherit;
     text-align: center;
     z-index: 2;
-    background: #0A0A2A;
 }
-.celdaMenu {
+.celdaIzquierda {
     width: 50px;
+    float: right;
+}
+.celdaDerecha {
+    width: 50px;
+    float: left;
 }
 .menu img{
-    position: relative;
-    float: left;
     width: 40px;
     height: 40px;
 }
@@ -42,16 +51,38 @@ body {
 }
 
 
+/*--------------------- ESTILOS DE LA PUBLICIDAD ---------------------*/
+.publicidad {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+    bottom: 0px;
+    background: #000;
+    text-align: center;
+}
+
+.publicidad p {
+    position: absolute;
+    top: 0px;
+    left: 45%;
+    color: #fff;
+}
+
+
 /*--------------------- ESTILOS DEL LISTADO ---------------------*/
 .listado {
-    position: relative;
-    top: 60px;
+    position: absolute;
+    width: 100%;
+    top: 75px;
+    bottom: 50px;
     overflow: auto;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .familia {
     display: inline-block;
+    width: 100%;
 }
 .familia p{
     color: #fff;
@@ -64,6 +95,8 @@ body {
     width: 200px;
     height: auto;
     margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 .contenedor {
     padding: 0;
@@ -76,26 +109,13 @@ body {
     padding: 0;
     border: 0;
 }
-.contenedor::before {
-    content: attr(title);
-    position: absolute;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    font-size: 15px;
-    padding: 5px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    text-align: left;
-    z-index: 1;
-}
 
 
 /*--------------------- ESTILOS DEL MENU LATERAL ---------------------*/
 nav.menu {
     position: fixed;
     z-index: 3;
-    background-color: #070719;
+    background-color: rgba(7, 7, 25, 0.5);
     overflow: hidden;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -109,7 +129,6 @@ nav.menu ul {
     padding: 0;
 }
 nav.menu a {
-    font-weight: 300;
     color: #fff;
     text-decoration: none;
 }
@@ -125,15 +144,14 @@ button.close-menu:focus {
 nav.slide-menu-left {
     top: 0;
     width: 30%;
-    height: 100%;
+    height: 80%;
 }
 nav.slide-menu-left li {
     display: block;
-    text-align: center;
-    border-bottom: solid 1px #3184a1;
-    border-top:  solid 1px #b5dbe9;
+    text-align: left;
 }
 nav.slide-menu-left li:first-child {
+    margin-top: 50px;
     border-top: none;
 }
 nav.slide-menu-left li:last-child {

@@ -1,0 +1,94 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    background: url("../img/textosIntro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.menu {
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    width: 50px;
+    height: 50px;
+}
+
+
+/*--------------------- ESTILOS DEL MENU LATERAL ---------------------*/
+nav.menu {
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(7, 7, 25, 0.5);
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.menu a {
+    font-weight: bold;
+    color: #3184a1;
+    text-decoration: none;
+}
+button.close-menu {
+    background-color: #0A0A2A;
+    color: #fff;
+    font-size: 15px;
+}
+button.close-menu:focus {
+    outline: none;
+}
+
+nav.slide-menu-left {
+    top: 0;
+    width: 30%;
+    height: 80%;
+}
+nav.slide-menu-left li {
+    display: block;
+    text-align: center;
+}
+nav.slide-menu-left li:first-child {
+    margin-top: 50px;
+    border-top: none;
+}
+nav.slide-menu-left li:last-child {
+    border-bottom: none;
+}
+nav.slide-menu-left a {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+}
+nav.slide-menu-left button.close-menu {
+    margin: 10px 0;
+    padding: 10px 30px;
+    background-color: #3184a1;
+    color: #fff;
+    border: none;
+}
+nav.slide-menu-left {
+    left: -30%;
+}
+body.sml-open nav.slide-menu-left {
+    left: 0
+}

@@ -16,3 +16,70 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2014-12-22 18:58:42.178 VeintemilLeguas[899:36576] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/B7B019BD-F302-4FBB-870F-2BABAB6F621E/VeintemilLeguas.app/www/famlias.html
 2014-12-22 18:59:04.808 VeintemilLeguas[899:36576] Resetting plugins due to page load.
 2014-12-22 18:59:04.875 VeintemilLeguas[899:36576] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/B7B019BD-F302-4FBB-870F-2BABAB6F621E/VeintemilLeguas.app/www/index.html
+2014-12-25 19:18:52.801 VeintemilLeguas[1284:31393] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Data/Application/636A4D58-7AE8-4882-8AC7-34F0CF3B558F/Library/Cookies/Cookies.binarycookies
+2014-12-25 19:18:53.363 VeintemilLeguas[1284:31393] Apache Cordova native platform version 3.7.0 is starting.
+2014-12-25 19:18:53.364 VeintemilLeguas[1284:31393] Multi-tasking -> Device: YES, App: YES
+2014-12-25 19:18:53.407 VeintemilLeguas[1284:31393] Unlimited access to network resources
+2014-12-25 19:18:53.414 VeintemilLeguas[1284:31393] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-12-25 19:18:55.123 VeintemilLeguas[1284:31393] Resetting plugins due to page load.
+2014-12-25 19:18:55.406 VeintemilLeguas[1284:31393] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/1CF8E3AC-4F40-44DB-902D-36EBBA53071C/VeintemilLeguas.app/www/index.html
+2014-12-25 19:19:03.952 VeintemilLeguas[1284:31393] Resetting plugins due to page load.
+2014-12-25 19:19:04.005 VeintemilLeguas[1284:31393] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/1CF8E3AC-4F40-44DB-902D-36EBBA53071C/VeintemilLeguas.app/www/especies.html
+2014-12-25 19:19:05.709 VeintemilLeguas[1284:31393] Resetting plugins due to page load.
+2014-12-25 19:19:14.720 VeintemilLeguas[1284:31393] CDVWebViewDelegate: Detected redirect when loadCount=-2
+2014-12-25 19:19:16.401 VeintemilLeguas[1284:31393] CDVWebViewDelegate: Detected redirect when loadCount=-2
+2014-12-27 22:05:28.295 VeintemilLeguas[901:19596] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Data/Application/54A37D83-D642-4A64-BC1F-8AF7AB514506/Library/Cookies/Cookies.binarycookies
+2014-12-27 22:05:28.894 VeintemilLeguas[901:19596] Apache Cordova native platform version 3.7.0 is starting.
+2014-12-27 22:05:28.895 VeintemilLeguas[901:19596] Multi-tasking -> Device: YES, App: YES
+2014-12-27 22:05:28.925 VeintemilLeguas[901:19596] Unlimited access to network resources
+2014-12-27 22:05:28.977 VeintemilLeguas[901:19596] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-12-27 22:05:30.595 VeintemilLeguas[901:19596] Resetting plugins due to page load.
+2014-12-27 22:05:30.975 VeintemilLeguas[901:19596] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/9E8B4BA9-A189-4A17-988E-9C24CFCDACEC/VeintemilLeguas.app/www/index.html
+2014-12-27 22:05:36.311 VeintemilLeguas[901:19596] Resetting plugins due to page load.
+2014-12-27 22:05:36.366 VeintemilLeguas[901:19596] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/9E8B4BA9-A189-4A17-988E-9C24CFCDACEC/VeintemilLeguas.app/www/especies.html
+2014-12-27 22:05:38.179 VeintemilLeguas[901:19596] Resetting plugins due to page load.
+2014-12-27 22:05:38.327 VeintemilLeguas[901:19596] THREAD WARNING: ['SpinnerDialog'] took '78.511963' ms. Plugin should use a background thread.
+2014-12-27 22:05:42.158 VeintemilLeguas[901:19596] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/9E8B4BA9-A189-4A17-988E-9C24CFCDACEC/VeintemilLeguas.app/www/navegador.html
+2014-12-27 22:16:03.827 VeintemilLeguas[1073:22342] Apache Cordova native platform version 3.7.0 is starting.
+2014-12-27 22:16:03.840 VeintemilLeguas[1073:22342] Multi-tasking -> Device: YES, App: YES
+2014-12-27 22:16:03.872 VeintemilLeguas[1073:22342] Unlimited access to network resources
+2014-12-27 22:16:03.900 VeintemilLeguas[1073:22342] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-12-27 22:16:04.322 VeintemilLeguas[1073:22342] Resetting plugins due to page load.
+2014-12-27 22:16:04.481 VeintemilLeguas[1073:22342] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/FACC3DF2-4257-4910-AFA3-67BCE8B56623/VeintemilLeguas.app/www/index.html
+2014-12-27 22:16:07.431 VeintemilLeguas[1073:22342] Resetting plugins due to page load.
+2014-12-27 22:16:07.513 VeintemilLeguas[1073:22342] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/FACC3DF2-4257-4910-AFA3-67BCE8B56623/VeintemilLeguas.app/www/especies.html
+2014-12-27 22:16:08.495 VeintemilLeguas[1073:22342] Resetting plugins due to page load.
+2014-12-27 22:16:08.595 VeintemilLeguas[1073:22342] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/FACC3DF2-4257-4910-AFA3-67BCE8B56623/VeintemilLeguas.app/www/navegador.html
+2014-12-27 22:16:13.842 VeintemilLeguas[1073:22342] Resetting plugins due to page load.
+2014-12-27 22:16:13.863 VeintemilLeguas[1073:22342] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/FACC3DF2-4257-4910-AFA3-67BCE8B56623/VeintemilLeguas.app/www/especies.html
+2014-12-27 22:16:16.263 VeintemilLeguas[1073:22342] Resetting plugins due to page load.
+2014-12-27 22:16:17.130 VeintemilLeguas[1073:22342] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/FACC3DF2-4257-4910-AFA3-67BCE8B56623/VeintemilLeguas.app/www/mero.html
+2014-12-27 22:16:17.997 VeintemilLeguas[1073:22342] Resetting plugins due to page load.
+2014-12-27 22:16:18.016 VeintemilLeguas[1073:22342] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/FACC3DF2-4257-4910-AFA3-67BCE8B56623/VeintemilLeguas.app/www/navegador.html
+2014-12-27 22:16:37.018 VeintemilLeguas[1073:22342] Resetting plugins due to page load.
+2014-12-27 22:16:37.222 VeintemilLeguas[1073:22342] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/FACC3DF2-4257-4910-AFA3-67BCE8B56623/VeintemilLeguas.app/www/navegador.html
+2014-12-27 22:16:39.702 VeintemilLeguas[1073:22342] Resetting plugins due to page load.
+2014-12-27 22:16:40.062 VeintemilLeguas[1073:22342] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/FACC3DF2-4257-4910-AFA3-67BCE8B56623/VeintemilLeguas.app/www/mero.html
+2014-12-27 22:16:41.665 VeintemilLeguas[1073:22342] Resetting plugins due to page load.
+2014-12-27 22:16:41.692 VeintemilLeguas[1073:22342] Finished load of: file:///Users/Victor/Library/Developer/CoreSimulator/Devices/97347A41-28A6-4103-BB22-676EB5867386/data/Containers/Bundle/Application/FACC3DF2-4257-4910-AFA3-67BCE8B56623/VeintemilLeguas.app/www/especies.html

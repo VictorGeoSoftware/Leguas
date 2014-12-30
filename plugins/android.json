@@ -4,8 +4,23 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"SpinnerDialog\"><param name=\"android-package\" value=\"hu.dpal.phonegap.plugins.SpinnerDialog\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
-    "installed_plugins": {},
+    "installed_plugins": {
+        "hu.dpal.phonegap.plugins.SpinnerDialog": {
+            "PACKAGE_NAME": "com.victor.leguas"
+        }
+    },
     "dependent_plugins": {}
 }

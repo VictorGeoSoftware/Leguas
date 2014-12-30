@@ -12,7 +12,6 @@ var app = {
     },
     onDeviceReady: function() {
         //Pillar correo
-        dimensionarImagen();
     }
 };
 
@@ -26,13 +25,5 @@ function onNoInternet() {
 
 function onInternet() {
     internet = 'true';
-}
-
-function dimensionarImagen() {
-    var image = document.getElementById("imagen_principal");
-    // 640x 360
-    image.style.width = (window.screen.width - 10) + 'px';
-    image.style.height = (window.screen.height/2) + 'px';
-    
 }
 
